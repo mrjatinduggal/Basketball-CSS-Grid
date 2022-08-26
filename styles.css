@@ -1,0 +1,70 @@
+/* ------Elements------- */
+body {
+  margin: 0;
+}
+/* -------Classes------- */
+.container {
+  background-color: #a27b5c;
+  column-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 75% 1fr;
+  height: 100vh;
+  row-gap: 10px;
+  width: 100%;
+}
+.copy {
+  color: #dcd7c9;
+  margin: auto;
+}
+.css-grid {
+  outline: 1px solid #dcd7c9;
+}
+.img-1 {
+  left: 10%;
+  position: absolute;
+}
+.img-2 {
+  position: absolute;
+  right: 10%;
+}
+.item {
+  background-color: aqua;
+  height: 100%;
+}
+.item-1 {
+  align-items: center;
+  background-color: #3f4e4f;
+  color: #dcd7c9;
+  display: flex;
+  font-family: "DynaPuff", cursive;
+  font-size: 32px;
+  grid-column: 1 / span 3;
+  height: 100%;
+  padding-top: 0px;
+  position: relative;
+}
+.item-5 {
+  background-color: #3f4e4f;
+  grid-column: 1 / span 3;
+  height: 100%;
+}
+.item-2 {
+  margin-left: 10px;
+}
+.item-4 {
+  margin-right: 10px;
+}
+.item-5 {
+  display: flex;
+  place-items: center;
+}
+.item-2,
+.item-3,
+.item-4 {
+  overflow: hidden;
+}
+.text {
+  margin: auto;
+  text-shadow: 0 0 10px black;
+}
